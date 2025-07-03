@@ -1,0 +1,55 @@
+## Build
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+.history/
+.vscode-test/
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## SQLite DB files
+*.db
+*.db-shm
+*.db-wal
+
+## Entity Framework Migrations (optional)
+**/Migrations/
+
+## Test Results
+TestResults/
+*.trx
+
+## Publish output
+publish/
+*.publish.xml
+
+## NuGet
+*.nupkg
+.nuget/
+
+# Rider / JetBrains IDEs
+.idea/
+
+# secrets and config files
+secrets.json
+appsettings.*.json
+!appsettings.Development.json
+
